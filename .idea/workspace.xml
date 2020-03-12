@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f56cfeb1-430a-4efa-b395-a8ea3bf54745" name="Default Changelist" comment="DarkSky.net Page test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/darksky/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/darksky/util/GetValuesUsingRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darksky/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/listeners/ExtentReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darksky/listeners/ExtentReportListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/listeners/TestAllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darksky/listeners/TestAllureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/pages/DarkSkyApiPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/pages/DarkSkyMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darksky/pages/DarkSkyMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/tesdata/DarkSkyTestData.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darksky/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/util/ElementUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darksky/util/ElementUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/util/ElementUtilPF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/util/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darksky/util/JavaScriptUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darksky/util/JavaScriptUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/darksky/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/darksky/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/darksky/tests/DarkSkyApiPageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/darksky/tests/DarkSkyMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/darksky/tests/DarkSkyMainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testrunners/testng.regression.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testrunners/testng.sanity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testrunners/testng.sanity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Hub Spot Test Sanity Suite/hub spot Sanity Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Hub Spot Test Sanity Suite/hub spot Sanity Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Hub Spot Test Sanity Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.hubspot.tests.ContactsPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.hubspot.tests.HomePageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.hubspot.tests.LoginPFTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.hubspot.tests.LoginTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.hubspot.tests.VerizonMainPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/hub spot Sanity Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Hub Spot Test Sanity Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UddDsgMJaUZtUR9vKMbwpksFfQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.darksky.tests" />
+      <recent name="com.darksky.pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/config/darksky/config" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/darksky/util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/muhittinizgi/Documents/workspace/DarkSkyTestNG/src/test/resources/testrunners/testng.sanity.xml">
+    <configuration name="DarkSkyApiPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DarkSkyTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.darksky.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.darksky.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.darksky.tests.DarkSkyApiPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DarkSkyApiPageTest.GoToNewSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DarkSkyTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.darksky.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.darksky.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.darksky.tests.DarkSkyApiPageTest" />
+      <option name="METHOD_NAME" value="GoToNewSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DarkSkyMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DarkSkyTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.darksky.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.darksky.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.darksky.tests.DarkSkyMainPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/muhittinizgi/Documents/workspace/DarkSkyTestNG/src/test/resources/testrunners/testng.sanity.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DarkSkyTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testrunners/testng.sanity.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/muhittinizgi/Documents/workspace/DarkSkyTestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DarkSkyTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/muhittinizgi/Documents/workspace/DarkSkyTestNG/src/test/resources/testrunners/testng.sanity.xml" />
+        <item itemvalue="TestNG.DarkSkyMainPageTest" />
+        <item itemvalue="TestNG./Users/muhittinizgi/Documents/workspace/DarkSkyTestNG/testng.xml" />
+        <item itemvalue="TestNG.DarkSkyApiPageTest" />
+        <item itemvalue="TestNG.DarkSkyApiPageTest.GoToNewSearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f56cfeb1-430a-4efa-b395-a8ea3bf54745" name="Default Changelist" comment="" />
+      <created>1575690290290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575690290290</updated>
+      <workItem from="1576937554672" duration="557000" />
+      <workItem from="1576948831350" duration="22000" />
+      <workItem from="1577618924571" duration="3073000" />
+      <workItem from="1577628782147" duration="473000" />
+      <workItem from="1583960964161" duration="2304000" />
+      <workItem from="1583964055289" duration="746000" />
+      <workItem from="1583966541945" duration="1135000" />
+      <workItem from="1583972718989" duration="8911000" />
+      <workItem from="1584043404840" duration="2862000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="DarkSky.net Page test" />
+    <option name="LAST_COMMIT_MESSAGE" value="DarkSky.net Page test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-100" y="46" width="800" height="714" key="#Intentions" timestamp="1575830680992">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="-100" y="46" width="800" height="714" key="#Intentions/0.23.1440.877@0.23.1440.877" timestamp="1575830680992" />
+    <state x="442" y="338" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1575808224631">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="442" y="338" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.1440.877@0.23.1440.877" timestamp="1575808224631" />
+    <state x="533" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1575700786381">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="533" y="186" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1575700786381" />
+    <state x="458" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576292980542">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1576292980542" />
+    <state x="306" y="66" key="CommitChangelistDialog2" timestamp="1577629344074">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="306" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1577629344074" />
+    <state width="1396" height="266" key="GridCell.Tab.0.bottom" timestamp="1576414911348">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="266" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1576414911348" />
+    <state width="1396" height="266" key="GridCell.Tab.0.center" timestamp="1576414911346">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="266" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1576414911346" />
+    <state width="1396" height="266" key="GridCell.Tab.0.left" timestamp="1576414911345">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="266" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1576414911345" />
+    <state width="1396" height="266" key="GridCell.Tab.0.right" timestamp="1576414911347">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="266" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1576414911347" />
+    <state x="258" y="125" key="Maven.ArtifactSearchDialog" timestamp="1576031272507">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="258" y="125" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1576031272507" />
+    <state x="310" y="76" key="SettingsEditor" timestamp="1576031105056">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="310" y="76" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1576031105056" />
+    <state x="325" y="203" key="Vcs.Push.Dialog.v2" timestamp="1577629365171">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="325" y="203" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1577629365171" />
+    <state x="497" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575818031929">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="497" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1575818031929" />
+    <state x="458" y="222" key="extract.method.dialog" timestamp="1576285056559">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="222" key="extract.method.dialog/0.23.1440.877@0.23.1440.877" timestamp="1576285056559" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1576212968842">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.23.1440.877@0.23.1440.877" timestamp="1576212968842" />
+  </component>
+</project>
